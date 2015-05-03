@@ -34,7 +34,7 @@ def send_email():
 			html_email << p(thing[2],style="font-family:Verdana;")
 			html_email << p('') << a("Top",href="#top",style="font-family:Verdana;")
 		html_email << p('')
-		html_email << p('Made with <3 by Ian',style="font-family:Verdana;")
+		html_email << p('Made with <3 by oneschirm',style="font-family:Verdana;")
 
 		outbox.send(Email(subject='Economist Articles - %s' % datetime.strftime(datetime.today(),'%m/%d/%Y, %H:%M %Z'), html_body=html_email.render(),recipients=config.recipients))
 		
