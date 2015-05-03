@@ -25,6 +25,6 @@ You can run the script as often as you'd like, but there are only so many new ar
 
 ##Requirements
 
-I'm using [Outbox](https://github.com/nathan-hoad/outbox), [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/latest/) with Python 3.4.
+I'm using pyh (included), [Outbox](https://github.com/nathan-hoad/outbox), [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/latest/) with Python 3.4.
 
 
