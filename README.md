@@ -6,7 +6,7 @@ This small repo allows you to email yourself and others with updates from the Ec
 You'll need to configure a few environment variables so that economist.py knows how to send emails:
 
 * ECONOMIST_USERAGENT: For connecting to the website, i.e. "Economist Bot 0.1"
-* ECONOMIST_USERNAME: Your email username, i.e. blogger_email
+* ECONOMIST_USERNAME: Your email username, i.e. blogger_email@gmail.com
 * ECONOMIST_PASSWORD : Your email password, i.e. Hunter2
 * ECONOMIST_SERVER: Your mail server, i.e. mail.gmail.com. 
 * ECONOMIST_PORT: Your mail server port, i.e. 567. 
